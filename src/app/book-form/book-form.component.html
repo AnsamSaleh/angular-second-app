@@ -1,0 +1,11 @@
+<div class="form">
+  <div class="form-group">
+    <input class="form-control" type="text" placeholder="Book Name" #name>
+  </div>
+  <div class="form-group">
+    <input class="form-control" type="url" placeholder="url" #url>
+  </div>
+  <div>
+    <button class="btn btn-primary" (click)="addBook(name.value, url.value)" >Add</button>
+  </div>
+</div>

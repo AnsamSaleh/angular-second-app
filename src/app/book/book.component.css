@@ -1,0 +1,12 @@
+.book{
+  display: inline-flex;
+  width: 70%;
+  margin: 20px auto;
+  background-color: #efefef;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #aaa;
+  padding: 20px;
+}
+.book h1{
+  display: inline
+}

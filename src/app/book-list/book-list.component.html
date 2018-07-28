@@ -1,0 +1,11 @@
+<div class="container">
+  <br>
+  <app-book-form (add)=addNewBook($event)></app-book-form>
+  <br>
+  <app-book (up)=upRate($event)
+  (down)=downRate($event)
+  *ngFor="let book of bookList index as i"
+  [book]="book"
+  [index]="i">
+  </app-book>
+</div>
